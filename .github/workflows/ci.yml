@@ -21,8 +21,9 @@ jobs:
     - name: Verify dependencies
       run: go mod verify
 
-    - name: Build
-      run: go build -v ./...
+# Not needed because this is only learning project
+#    - name: Build
+#      run: go build -v ./...
 
     - name: Run go vet
       run: go vet ./...

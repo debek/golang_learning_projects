@@ -4,8 +4,10 @@ import (
 	"fmt"
 )
 
-var y string
-var z int
+var (
+	y string
+	z int
+)
 
 func main() {
 	// DECLARE a variable to be of a certain TYPE
