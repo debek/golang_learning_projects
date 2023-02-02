@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-type lol int
+type lol2 int
 
-var x lol
+var x lol2
 
 var y int
 

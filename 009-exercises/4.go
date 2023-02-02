@@ -4,13 +4,13 @@ import "fmt"
 
 type lol int
 
-var x lol
+var i lol
 
 func main() {
 
-	fmt.Println(x)
-	fmt.Printf("%T\n", x)
+	fmt.Println(i)
+	fmt.Printf("%T\n", i)
 
-	x = 4
-	fmt.Println(x)
+	i = 4
+	fmt.Println(i)
 }

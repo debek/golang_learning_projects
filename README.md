@@ -18,3 +18,5 @@ https://go.dev/doc/cmd - CLI
 https://pkg.go.dev/std - Standard Packages library
 
 https://pkg.go.dev/ - 3-d party Packages library
+
+https://gobyexample.com/ - Go Examples

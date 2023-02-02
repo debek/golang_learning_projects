@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-var x int
-var y string
-var z bool
+var d int
+var e string
+var f bool
 
 func main() {
-	fmt.Printf("x type is: %T\n", x)
-	fmt.Printf("y type is: %T\n", y)
-	fmt.Printf("z type is: %T\n", z)
+	fmt.Printf("d type is: %T\n", d)
+	fmt.Printf("e type is: %T\n", e)
+	fmt.Printf("f type is: %T\n", f)
 }

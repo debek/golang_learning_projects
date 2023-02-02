@@ -2,20 +2,20 @@ package main
 
 import "fmt"
 
-var x int = 42
-var y string = "James Bond"
+var g int = 42
+var h string = "James Bond"
 var z bool = true
 
 func main() {
-	fmt.Printf("x type is: %T\n", x)
-	fmt.Printf("x value is: %v\n\n", x)
+	fmt.Printf("g type is: %T\n", g)
+	fmt.Printf("g value is: %v\n\n", g)
 
-	fmt.Printf("y type is: %T\n", y)
-	fmt.Printf("y value is: %v\n\n", y)
+	fmt.Printf("h type is: %T\n", h)
+	fmt.Printf("h value is: %v\n\n", h)
 
 	fmt.Printf("z type is: %T\n", z)
 	fmt.Printf("z value is: %v\n\n", z)
 
-	output := fmt.Sprintf("%v\t%v\t%v\t", x, y, z)
+	output := fmt.Sprintf("%v\t%v\t%v\t", g, h, z)
 	println(output)
 }
