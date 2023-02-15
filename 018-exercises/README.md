@@ -124,15 +124,3 @@ the values, along with their index position in the slice.
 `moneypenny_miss`, `James Bond`, `Literature`, `Computer Science`
 
 `no_dr`, `Being evil`, `Ice cream`, `Sunsets`
-
-### Hands-on exercise #9
-
-Using the code from the previous example, add a record to your map. Now print the map out
-
-using the “range” loop
-
-### Hands-on exercise #10
-
-Using the code from the previous example, delete a record from your map. Now print the map
-
-out using the “range” loop
