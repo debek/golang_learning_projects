@@ -20,6 +20,7 @@ type sedan struct {
 }
 
 func main() {
+
 	t := truck{
 		vehicle: vehicle{
 			doors: 2,
@@ -39,4 +40,6 @@ func main() {
 	fmt.Println(s)
 	fmt.Println(t.doors)
 	fmt.Println(s.doors)
+
+	fmt.Println()
 }
