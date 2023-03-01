@@ -33,5 +33,4 @@ func mouse(fn string, ln string) (string, bool) {
 	a := fmt.Sprint(fn, " ", ln, `, says "Hello"`)
 	b := true
 	return a, b
-
 }

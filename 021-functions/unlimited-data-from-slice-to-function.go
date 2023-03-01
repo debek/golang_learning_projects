@@ -5,12 +5,13 @@ import (
 )
 
 func main() {
-	x := sum(2, 3, 4, 5, 6, 7, 8, 9)
+	xi := []int{2, 3, 4, 5, 6, 7, 8, 9}
+	x := sum(xi...)
 	fmt.Println("The total is", x)
 }
 
 func sum(x ...int) int {
-	fmt.Println(x)
+	fmt.Println("Test", x)
 	fmt.Printf("%T\n", x)
 
 	sum := 0
